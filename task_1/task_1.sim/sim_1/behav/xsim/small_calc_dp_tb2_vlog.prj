@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/alu.v" \
+"../../../../task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux2.v" \
+"../../../../task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux4.v" \
+"../../../../task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/register_file.v" \
+"../../../../task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/small_calculator_dp.v" \
+"../../../../task_1.srcs/sim_1/new/small_calc_dp_tb2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

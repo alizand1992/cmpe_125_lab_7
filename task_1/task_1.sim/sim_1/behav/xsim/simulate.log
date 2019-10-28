@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Error when adding.
+$stop called at time : 185 ns : File "C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calc_dp_tb2.v" Line 61
