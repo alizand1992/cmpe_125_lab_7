@@ -22,11 +22,38 @@ module small_calculator_dp_tb();
         .out(out)
     );
     
+    integer i, j, k;
+    
     initial
     begin
         clk = 1;
+        #1;
+        
+        we = 1;
+        #1;
+        
+        in1 = 1;
+        in2 = 2;
+        wa = 1;
+        raa = 1;
+        rab = 1;
+        c = 0;
+        rea = 1;
+        reb = 1;
+        #1;
+        
+        for (i = 0; i < 4; i = i + 1)
+        begin
+            s1 = #2 i;
+                
+            for (j = 0; j < 2; j = j + 1)
+                s2 = #2 j;
+        end
+
+        
+        $finish;
     end
 
     always
-        clk = #5 ~clk;
+        clk = #1 ~clk;
 endmodule
