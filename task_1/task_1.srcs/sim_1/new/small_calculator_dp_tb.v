@@ -26,30 +26,56 @@ module small_calculator_dp_tb();
     
     initial
     begin
-        clk = 1;
-        #1;
-        
-        we = 1;
-        #1;
-        
-        in1 = 1;
-        in2 = 2;
-        wa = 1;
-        raa = 1;
-        rab = 1;
-        c = 0;
-        rea = 1;
-        reb = 1;
-        #1;
-        
-        for (i = 0; i < 4; i = i + 1)
-        begin
-            s1 = #2 i;
-                
-            for (j = 0; j < 2; j = j + 1)
-                s2 = #2 j;
-        end
+        clk = 0;
 
+        // Loop to test multiple values
+        for (i = 0; i < 5; i = i + 1) begin        
+            // Initialize
+            we = 1;
+            wa = 1;
+            s1 = 0;
+            s2 = 0;
+            #2;
+            wa = 2;
+            #2;
+            
+            // Set in1 and 2 to random numbers
+            in1 = $random;
+            in2 = $random;
+            
+            wa = 1; // set write address to 1 
+            s1 = 1; // set mux to pass through in1
+            #2; 
+             
+            wa = 2; // set the write address 2 
+            s1 = 2; // set mux to pass through in2
+            #2;
+        
+            we = 0; // disable write
+        
+            // Set read address a and b to read from 1 and 2 (where in1 and in2 will be stored at)
+            raa = 1;
+            rab = 2;
+            #2;
+            
+            // Set read enable for a and b to prepare for ALU
+            rea = 1;
+            reb = 1;
+            #2;
+            
+            // set s2 to output ALU value
+            s2 = 1;
+            // change between ALU functions
+            //   0 = +
+            //   1 = -
+            //   2 = &
+            //   3 = ^ 
+            for (j = 0; j < 4; j = j + 1)
+            begin
+                c = j;
+                #2;
+            end
+        end
         
         $finish;
     end

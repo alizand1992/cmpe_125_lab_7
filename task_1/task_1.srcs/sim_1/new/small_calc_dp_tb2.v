@@ -1,11 +1,11 @@
 module small_calc_dp_tb2();
+    reg clk;
     reg [3:0] in1, in2;
-    reg [3:0] expected;
     reg [1:0] s1, wa, raa, rab, c;
     reg we, rea, reb, s2;
-    reg clk;
     
     wire [3:0] out;
+    reg [3:0] expected;
     
     small_calculator_dp DUT (
         .clk(clk),
@@ -35,11 +35,11 @@ module small_calc_dp_tb2();
         #50
         
         wa = 2'b01;
-        s1 = 2'b11;
+        s1 = 2'b10;
         #50
         
         wa = 2'b10;
-        s1 = 2'b10;
+        s1 = 2'b11;
         #50
        
     raa = 2'b01;
@@ -58,8 +58,7 @@ module small_calc_dp_tb2();
         if (out != expected)
             begin
                 $display("Error when adding.");
-                $stop;
-
+                
             end
             #10;
     raa = 2'b01;
@@ -78,7 +77,6 @@ module small_calc_dp_tb2();
         if (out != expected)
             begin
                 $display("Error when subtracting.");
-                $stop;
 
             end
             #10;
@@ -93,14 +91,13 @@ module small_calc_dp_tb2();
         raa = 2'b00;
         rab = 2'b11;
         s2 = 1;
-        expected = 4'b000;
+        expected = 4'b0000;
         #10;
         
         
         if (out != expected)
             begin
                 $display("Error when performing 'and' logic.");
-                $stop;
 
             end
             #10;
@@ -121,7 +118,6 @@ module small_calc_dp_tb2();
         if (out != expected)
             begin
                 $display("Error when performing 'xor'.");
-                $stop;
             end
             #10;
             
@@ -131,11 +127,11 @@ module small_calc_dp_tb2();
 initial
     begin
     clk = 0;
-    #10;
+    #25;
     forever
     begin
     clk = ~clk;
-    #10;
+    #25;
     end
 end
         

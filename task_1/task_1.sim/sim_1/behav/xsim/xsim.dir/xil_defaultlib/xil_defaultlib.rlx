@@ -3,10 +3,10 @@
 May 24 2019
 15:06:07
 C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.sim/sim_1/behav/xsim/glbl.v,1572239667,verilog,,,,glbl,,,,,,,,
-C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calc_dp_tb2.v,1572249186,verilog,,,,small_calc_dp_tb2,,,,,,,,
-C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calculator_dp_tb.v,1572239667,verilog,,,,small_calculator_dp_tb,,,,,,,,
+C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calc_dp_tb2.v,1572299282,verilog,,,,small_calc_dp_tb2,,,,,,,,
+C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calculator_dp_tb.v,1572334643,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calc_dp_tb2.v,,small_calculator_dp_tb,,,,,,,,
 C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/alu.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux2.v,,alu,,,,,,,,
 C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux2.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux4.v,,mux2,,,,,,,,
 C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/mux4.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/register_file.v,,mux4,,,,,,,,
 C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/register_file.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/small_calculator_dp.v,,register_file,,,,,,,,
-C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/small_calculator_dp.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calc_dp_tb2.v,,small_calculator_dp,,,,,,,,
+C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sources_1/imports/CMPE 125 Lab 7 Small Calculator DP Source Code/small_calculator_dp.v,1572239667,verilog,,C:/Users/damie/Documents/GitHub/cmpe_125_lab_7/task_1/task_1.srcs/sim_1/new/small_calculator_dp_tb.v,,small_calculator_dp,,,,,,,,
