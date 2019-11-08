@@ -10,5 +10,16 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab
 INFO: [VRFC 10-311] analyzing module small_calculator_dp
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/control_unit_data_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit_data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/calculator_fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculator_fpga
+INFO: [VRFC 10-2458] undeclared symbol clk5KHz, assumed default net type wire [C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/calculator_fpga.v:19]
+INFO: [VRFC 10-2458] undeclared symbol D0, assumed default net type wire [C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/calculator_fpga.v:21]
+INFO: [VRFC 10-2458] undeclared symbol D1, assumed default net type wire [C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/new/calculator_fpga.v:22]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sources_1/imports/new/clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sim_1/new/control_unit_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module control_unit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sim_1/new/control_unit_data_path_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit_data_path_tb

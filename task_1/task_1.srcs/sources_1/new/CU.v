@@ -1,9 +1,10 @@
 module CU (
         input wire go, clk, rst,
         input wire [1:0] op,
-        output reg [1:0] s1, wa, raa, rab, c,
-        output reg we, rea, reb, s2, done,
-        output reg [3:0] cs                    //current state
+        output wire [1:0] s1, wa, raa, rab, c,
+        output wire we, rea, reb, s2, done,
+        output reg [3:0] cs
+                            //current state
 );
 
     reg [3:0] ns;  //next state

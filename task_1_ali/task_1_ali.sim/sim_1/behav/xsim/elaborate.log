@@ -1,6 +1,6 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 0e9b1ec97f754a41921120f22b67d1ad --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot control_unit_tb_behav xil_defaultlib.control_unit_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 0e9b1ec97f754a41921120f22b67d1ad --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot control_unit_data_path_tb_behav xil_defaultlib.control_unit_data_path_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -9,6 +9,12 @@ WARNING: [XSIM 43-4100] "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.control_unit
-Compiling module xil_defaultlib.control_unit_tb
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.small_calculator_dp
+Compiling module xil_defaultlib.control_unit_data_path
+Compiling module xil_defaultlib.control_unit_data_path_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot control_unit_tb_behav
+Built simulation snapshot control_unit_data_path_tb_behav

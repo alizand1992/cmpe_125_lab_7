@@ -1,3 +1,3 @@
 Vivado Simulator 2019.1
 Time resolution is 1 ps
-$finish called at time : 272 ns : File "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sim_1/new/control_unit_tb.v" Line 33
+$finish called at time : 80 ns : File "C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.srcs/sim_1/new/control_unit_data_path_tb.v" Line 41

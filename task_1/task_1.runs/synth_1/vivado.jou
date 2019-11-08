@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.2 (64-bit)
+# SW Build 2615518 on Fri Aug  9 15:55:25 MDT 2019
+# IP Build 2614745 on Fri Aug  9 20:55:02 MDT 2019
+# Start of session at: Mon Nov  4 15:19:27 2019
+# Process ID: 10740
+# Current directory: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1/task_1.runs/synth_1
+# Command line: vivado.exe -log lab_7_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab_7_fpga.tcl
+# Log file: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1/task_1.runs/synth_1/lab_7_fpga.vds
+# Journal file: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1/task_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab_7_fpga.tcl -notrace

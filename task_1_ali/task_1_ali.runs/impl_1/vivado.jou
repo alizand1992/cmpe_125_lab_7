@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.2 (64-bit)
+# SW Build 2615518 on Fri Aug  9 15:55:25 MDT 2019
+# IP Build 2614745 on Fri Aug  9 20:55:02 MDT 2019
+# Start of session at: Thu Nov  7 17:45:46 2019
+# Process ID: 19260
+# Current directory: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.runs/impl_1
+# Command line: vivado.exe -log calculator_fpga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source calculator_fpga.tcl -notrace
+# Log file: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.runs/impl_1/calculator_fpga.vdi
+# Journal file: C:/Users/Ali/Documents/cmpe_125_lab_7/task_1_ali/task_1_ali.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source calculator_fpga.tcl -notrace
